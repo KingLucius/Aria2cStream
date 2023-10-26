@@ -1377,7 +1377,7 @@ fun newUriRequest(
             dir = directory,
             userAgent = userAgent,
             seedTimeMin = if (seed) null else 0.0f,
-            streamPieceSelector = if(stream) StreamPieceSelector.Inorder else null,
+            //streamPieceSelector = if(stream) StreamPieceSelector.Inorder else null,
             btPieceSelector = if(stream) BtPieceSelector.Inorder else null,
         ),
     )
